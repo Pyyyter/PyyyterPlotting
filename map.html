@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a63e366c1ad6f156ac87fff8f8af0194 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a63e366c1ad6f156ac87fff8f8af0194" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a63e366c1ad6f156ac87fff8f8af0194 = L.map(
+                "map_a63e366c1ad6f156ac87fff8f8af0194",
+                {
+                    center: [-22.9042977, -43.1165879],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_534f244a7f9c843fe97986e44186ee9f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a63e366c1ad6f156ac87fff8f8af0194);
+        
+    
+            var marker_de22ce084d48f7790f0bfee09e3e23ac = L.marker(
+                [-22.90517, -43.13245],
+                {}
+            ).addTo(map_a63e366c1ad6f156ac87fff8f8af0194);
+        
+    
+            var icon_b5f7c4c50885541a71f234f8cae1641f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_de22ce084d48f7790f0bfee09e3e23ac.setIcon(icon_b5f7c4c50885541a71f234f8cae1641f);
+        
+    
+        var popup_61b2cb72955f6bbd35924cd2e6e1e166 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8ecb0205e5b623fddf13a189bf33836 = $(`<div id="html_c8ecb0205e5b623fddf13a189bf33836" style="width: 100.0%; height: 100.0%;">UFF   Casa do Adriano</div>`)[0];
+                popup_61b2cb72955f6bbd35924cd2e6e1e166.setContent(html_c8ecb0205e5b623fddf13a189bf33836);
+            
+        
+
+        marker_de22ce084d48f7790f0bfee09e3e23ac.bindPopup(popup_61b2cb72955f6bbd35924cd2e6e1e166)
+        ;
+
+        
+    
+    
+            var marker_70d9c50f4293027709db5685fb420664 = L.marker(
+                [-22.909765, -43.1163],
+                {}
+            ).addTo(map_a63e366c1ad6f156ac87fff8f8af0194);
+        
+    
+            var icon_8348812c3e15d50076039f7c93a4f601 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_70d9c50f4293027709db5685fb420664.setIcon(icon_8348812c3e15d50076039f7c93a4f601);
+        
+    
+        var popup_d063e9118ebc66b83543de5e66bf2a65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3aec2133a922fb712340cf30fa441f3e = $(`<div id="html_3aec2133a922fb712340cf30fa441f3e" style="width: 100.0%; height: 100.0%;">Baia de Guanabara / Águas da praia de Icaraí / Oxigenação da água : 8.20 PPM / Opacidade da água : 60%</div>`)[0];
+                popup_d063e9118ebc66b83543de5e66bf2a65.setContent(html_3aec2133a922fb712340cf30fa441f3e);
+            
+        
+
+        marker_70d9c50f4293027709db5685fb420664.bindPopup(popup_d063e9118ebc66b83543de5e66bf2a65)
+        ;
+
+        
+    
+    
+            var marker_1c933eeac99d4d2c088a30e3ef6c6dd5 = L.marker(
+                [-22.905, -43.208],
+                {}
+            ).addTo(map_a63e366c1ad6f156ac87fff8f8af0194);
+        
+    
+            var icon_2f550af2a018379cb0b7702ba1de0a89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1c933eeac99d4d2c088a30e3ef6c6dd5.setIcon(icon_2f550af2a018379cb0b7702ba1de0a89);
+        
+    
+        var popup_5dc02f229a0407f859789bc0dfa648ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d250b1774da40eb4d3837ef3c0bceef = $(`<div id="html_8d250b1774da40eb4d3837ef3c0bceef" style="width: 100.0%; height: 100.0%;">Meu marcador 3</div>`)[0];
+                popup_5dc02f229a0407f859789bc0dfa648ca.setContent(html_8d250b1774da40eb4d3837ef3c0bceef);
+            
+        
+
+        marker_1c933eeac99d4d2c088a30e3ef6c6dd5.bindPopup(popup_5dc02f229a0407f859789bc0dfa648ca)
+        ;
+
+        
+    
+</script>
+</html>
